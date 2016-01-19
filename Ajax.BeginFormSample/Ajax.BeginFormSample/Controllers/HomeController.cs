@@ -1,4 +1,6 @@
-﻿using System.Web.Mvc;
+﻿using System.Collections.Generic;
+using System.Web;
+using System.Web.Mvc;
 
 namespace Ajax.BeginFormSample.Controllers
 {
@@ -8,5 +10,17 @@ namespace Ajax.BeginFormSample.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public ActionResult Upload(List<HttpPostedFileBase> fileList)
+        {
+            if (fileList != null)
+            {
+                return Json(new { result = "true" }, JsonRequestBehavior.AllowGet);
+            }
+
+            return Json(new { result = "false" }, JsonRequestBehavior.AllowGet);
+        }
     }
 }
+
