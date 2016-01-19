@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
-namespace Ajax.BeginFormSample
+namespace Jquery.Ajax.FileUpload
 {
     public class FilterConfig
     {

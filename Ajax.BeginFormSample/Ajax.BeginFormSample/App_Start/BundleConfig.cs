@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
-namespace Ajax.BeginFormSample
+namespace Jquery.Ajax.FileUpload
 {
     public class BundleConfig
     {

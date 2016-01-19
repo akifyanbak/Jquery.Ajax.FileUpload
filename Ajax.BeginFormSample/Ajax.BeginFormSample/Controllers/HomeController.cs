@@ -2,7 +2,7 @@
 using System.Web;
 using System.Web.Mvc;
 
-namespace Ajax.BeginFormSample.Controllers
+namespace Jquery.Ajax.FileUpload.Controllers
 {
     public class HomeController : Controller
     {
