@@ -12,7 +12,7 @@ namespace Jquery.Ajax.FileUpload.Controllers
         }
 
         [HttpPost]
-        public ActionResult Upload(List<HttpPostedFileBase> fileList)
+        public ActionResult Upload(List<HttpPostedFileBase> fileList,string falan)
         {
             if (fileList != null)
             {
